@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,cmake
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c++,cmake
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,cmake,ninja
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c++,cmake,ninja
 
 ### C++ ###
 # Prerequisites
@@ -52,6 +52,10 @@ _deps
 # External projects
 *-prefix/
 
+### Ninja ###
+.ninja_deps
+.ninja_log
+
 ### VisualStudioCode ###
 .vscode/*
 .vscode/settings.json
@@ -73,4 +77,4 @@ _deps
 
 build/
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,cmake
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,cmake,ninja
